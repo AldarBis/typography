@@ -2,7 +2,7 @@
 Create security strong and easy to read password
 
 ## Usage:
- To create new password type 
+ You can generate readable password consisted of 2 words: adjective and noun.
  ``` ruby
  PasswordGem::password #=> "materialistic slide"
  ```
