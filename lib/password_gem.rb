@@ -1,7 +1,10 @@
+require 'random-word'
+
+RandomWord.exclude_list << /_/
 module PasswordGem
-  class WhoIs
-    def self.password?
-      puts "YOU ARE AWESOME!!"
+  
+    def self.password
+      RandomWord.adjs.next + " " + RandomWord.nouns.next
     end
-  end
+  
 end
