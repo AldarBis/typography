@@ -1,7 +1,7 @@
 # password
 Create security strong and easy to read password
 ## Install:
-Instal following gems:
+Install following gems:
 ```
 install gem random-word
 install gem password_gem
