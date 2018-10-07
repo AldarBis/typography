@@ -15,6 +15,6 @@ gem "password_gem"
  ``` ruby
 PasswordGem::password_quant(6, 1..12) #=> ["uvumux", "gabofi", "gam", "epang", "j", "ikumigogan"]
 PasswordGem::password_quant(6, 12) #=> ["henatayetepe", "ogiquachawre", "nekucevatobi", "pegiyunopose", 
-                                        "loxegalehula", "rewigejeqife"]
+"loxegalehula", "rewigejeqife"]
 PasswordGem::password_fixed(4) #=> "viyo"
 PasswordGem::password_interval(3..10) #=> "raqasiqibu"
