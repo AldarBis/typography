@@ -11,7 +11,7 @@ gem "password_gem"
 ```
 
 ## Usage:
- You can generate readable password consisted of two words: adjective and noun.
+ You may generate password with numeral quantity of symbols. Also you have abbility to create as many passwords as you need at once.
  ``` ruby
  PasswordGem::password #=> "materialistic slide"
  ```
