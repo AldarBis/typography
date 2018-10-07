@@ -3,12 +3,10 @@ Create security strong and easy to read password
 ## Install:
 Install following gems:
 ```
-install gem random-word
 install gem password_gem
 ```
 Add it to your Gemfile:
 ```
-gem "random-word"
 gem "password_gem"
 ```
 
