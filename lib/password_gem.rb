@@ -22,12 +22,12 @@ class Password
         if (l % 2 ) == 0
           word = word + vowels.sample
         else
-         case word.length
-	    when len - 1, 0
-	      compound = constants
-	    when len - 2
-	      compound = compound - ["tch"]
-          end		
+          case word.length
+	     when len - 1, 0
+	       compound = constants
+	     when len - 2
+	       compound = compound - ["tch"]
+           end		
           word = word + compound.sample
         end
         l += 1
