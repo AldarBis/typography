@@ -28,7 +28,7 @@ class Password
 	     when len - 2
 	       compound = compound - ["tch"]
            end		
-          word = word + compound.sample
+           word = word + compound.sample
         end
         l += 1
       end
