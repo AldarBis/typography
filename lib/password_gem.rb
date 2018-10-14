@@ -6,7 +6,7 @@ class Password
       raise "Неверный тип данных! Количество паролей не может быть #{quant.class}"
     end
     unless len.is_a?(Integer) || len.is_a?(Range)
-      raise "Неверный тип данных! Длинна пароля не может быть #{len.class}"
+      raise "Неверный тип данных! Длина пароля не может быть #{len.class}"
     end
     constants = "bcdfghjklmnpqrstvwxyz".scan(/.{1}/)
     vowels = "aouie".scan(/.{1}/)
