@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # password
 Create security strong and easy to read password
 ## Install:
@@ -20,3 +21,6 @@ p.generate(3, 5) => [ "elaxo", "taken", "elevi"]
 p.generate(3, 2..10) => [ "anehingu", "jupiceri", "tuqusafe"]
 p.generate(2.4, 2..10) => "Неверный тип данных! Количество паролей не может быть Float"
 p.generate("foo") => "Неверный тип данных! Длина пароля не может быть String"
+=======
+# typography
+>>>>>>> refs/remotes/origin/master
