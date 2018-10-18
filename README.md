@@ -11,7 +11,7 @@ gem "typog_gem"
 ```
 
 ## Usage:
-Initialize new object with text you want to edit with typograph
+Initialize new object with text you want to edit via typograph
 ``` ruby
 typ = Typograph.new('"Эдиториум.ру" - сайт, созданный по материалам сборника "О редактировании и редакторах" Аркадия Эммануиловича  
 Мильчина, который с 1944 года коллекционировал выдержки из статей, рассказов, фельетонов, пародий, писем и книг, где так или иначе  
